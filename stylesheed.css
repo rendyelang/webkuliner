@@ -8,6 +8,7 @@ body,
   margin: 0;
   padding: 0;
   font-family: "Lucida Grande";
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -135,7 +136,6 @@ a {
 body {
   font-family: calibri;
   background: #fff;
-  height: 2000px;
 }
 .contents {
   height: auto;
@@ -222,7 +222,7 @@ body {
   }
 }
 
-.footer {
+/* .footer {
   background-color: #2f5167;
   color: #fff;
   height: 120px;
@@ -244,4 +244,23 @@ body {
 
 li {
   list-style: none;
+} */
+
+footer {
+  background-color: #74b2bb;
+  float: left;
+  width: 100%;
+  padding: 25px;
+}
+
+.copy {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer .copy a {
+  color: coral;
+  display: inline;
+  font-weight: bold;
 }
